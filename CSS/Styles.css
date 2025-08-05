@@ -1,0 +1,113 @@
+/* universal selector */
+* {
+  margin: 40;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root {
+  --my-color: #e24f0bfb;
+  --mysecondcolor: rgb(30, 224, 5);
+  --myfontsize: 2rem;
+}
+/* h1 {
+  background-color: green;
+  color: blueviolet;
+  border: 2px solid;
+} */
+/* Element Selector above */
+
+/* Class Selector */
+.similar {
+  background-color: brown;
+  color: azure;
+}
+/* .word {
+  background-color: orangered;
+  color: black;
+} */
+.btn {
+  padding: 1rem;
+  font-size: var(--myfontsize);
+}
+.btn-login {
+  background-color: fuchsia;
+}
+.btn-reset {
+  background-color: lightsalmon;
+}
+.group {
+  border: 1px dashed brown;
+}
+/* Desendant Combinator */
+.group p {
+  background-color: khaki;
+  color: blue;
+}
+/* child combinators */
+.group > div > p {
+  background-color: seagreen;
+  color: white;
+}
+/* group selectors */
+/* .group > h1,
+.group > p {
+  background-color: black;
+  color: white;
+} */
+/* Adjacent sibling combinator */
+.group > h1 + p {
+  background-color: mediumvioletred;
+  color: black;
+}
+/* pseudo classes */
+.pseudo {
+  margin: 4rem;
+}
+.pseudo a {
+  background-color: var(--mysecondcolor);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+}
+.pseudo a:hover {
+  background-color: blue;
+  color: black;
+  border-radius: 50%;
+}
+/* a:visites ==> targets visited links */
+/* .pseudo a:visited {
+  background-color: brown;
+} */
+/* a:link ==> targets unvisited links */
+.pseudo a:active {
+  background-color: lime;
+}
+/* 25/04/2025 */
+.pseudo input {
+  border: 2px solid yellow;
+}
+.pseudo input:focus {
+  border: 10px solid var(--my-color);
+  padding: 25px;
+  cursor: not-allowed;
+}
+body {
+  margin: 5rem;
+}
+/*:root*/
+/* .of-child :last-child {
+  background-color: black;
+  color: white;
+}
+.of-child :first-child {
+  background-color: black;
+  color: white;
+}
+.of-child :nth-child(3) {
+  background-color: brown;
+} */
+.of-child p:last-of-type {
+  background: aquamarine;
+}
+/* 29/04/2025 */
+/* view port hero */

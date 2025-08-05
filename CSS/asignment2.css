@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.flexbox-container {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: black;
+  width: 100%;
+  height: 100vh;
+  align-items: center;
+}
+.rectangle {
+  width: 400px;
+  height: fit-content;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  /* border-radius: 15px; */
+  /* border: 2px solid black; */
+  background-color: rgb(32, 32, 32);
+}
+.card-top {
+  display: flex;
+  /* align-items: center; */
+  gap: 20px;
+  margin-top: 20px;
+  justify-content: center;
+}
+.smiley-img {
+  width: 100px;
+  height: 100px;
+}
+.smiley-img img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
+.name {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  margin-top: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 14px;
+  color: white;
+}
+.h1 {
+  margin-block: 20px;
+}
+.location {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+  font-size: 16px;
+  font-weight: 200;
+  color: yellow;
+}
+.h3 {
+  margin-block: 20px;
+}
+.profession {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: wheat;
+}
+.card-bottom {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  flex-direction: column;
+}
+.git {
+  margin-block: 20px;
+}
+.github {
+  color: white;
+  background-color: rgb(71, 70, 70);
+  padding-inline: 120px;
+  text-decoration: none;
+  padding-block: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.frontmen {
+  margin-block: 20px;
+}
+.frontend-mentor {
+  color: white;
+  background-color: rgb(71, 70, 70);
+  padding-inline: 70px;
+  text-decoration: none;
+  padding-block: 10px;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.lin {
+  margin-block: 20px;
+}
+.linkedln {
+  color: white;
+  background-color: rgb(71, 70, 70);
+  padding-inline: 110px;
+  padding-block: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.insta {
+  margin-block: 20px;
+}
+.instagram {
+  color: white;
+  background-color: rgb(71, 70, 70);
+  padding-inline: 100px;
+  padding-block: 10px;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 200;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.robot__man-background {
+  
+}

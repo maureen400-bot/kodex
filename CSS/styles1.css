@@ -1,0 +1,22 @@
+.mycontainer {
+  display: flex;
+}
+.mycontainer > div {
+  width: 50%;
+}
+h5 {
+  background-color: aquamarine;
+  color: black;
+}
+h2 {
+  background-color: aquamarine;
+  color: black;
+}
+h6 {
+  background-color: aquamarine;
+  color: black;
+}
+h1 {
+  background-color: aquamarine;
+  color: chartreuse;
+}

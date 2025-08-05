@@ -1,0 +1,1020 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.manage__background {
+  position: relative;
+  width: 100%;
+  height: 320vh;
+  z-index: 1;
+  background-color: #fafafa;
+}
+.icon__tag i {
+  color: rgb(236, 78, 16);
+  width: 100%;
+  position: absolute;
+  left: 120px;
+  top: 49px;
+  font-size: 14px;
+  z-index: 3;
+}
+.icon__tag-name p {
+  position: absolute;
+  color: #223899;
+  font-size: 22px;
+  left: 138px;
+  top: 38px;
+  font-weight: 600;
+  z-index: 4;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon__tag1 p {
+  position: absolute;
+  z-index: 5;
+  font-size: 14px;
+  left: 510px;
+  color: #223899;
+  top: 52px;
+}
+.icon__tag2 p {
+  position: absolute;
+  z-index: 6;
+  font-size: 14px;
+  left: 580px;
+  color: #223899;
+  top: 52px;
+}
+.icon__tag3 p {
+  position: absolute;
+  z-index: 7;
+  font-size: 14px;
+  left: 650px;
+  color: #223899;
+  top: 52px;
+}
+.icon__tag4 p {
+  position: absolute;
+  z-index: 8;
+  font-size: 14px;
+  left: 730px;
+  color: #223899;
+  top: 52px;
+}
+.icon__tag5 p {
+  position: absolute;
+  z-index: 9;
+  font-size: 14px;
+  left: 800px;
+  color: #223899;
+  top: 52px;
+}
+.icon__tag-get__started a {
+  position: absolute;
+  z-index: 10;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(236, 78, 16);
+  border: 1px solid rgb(236, 78, 16);
+  padding-inline: 25px;
+  padding-block: 10px;
+  border-radius: 20px;
+  right: 120px;
+  top: 43px;
+  box-shadow: 0px 5px 3px rgb(245, 156, 156);
+}
+.manage__background1 img {
+  position: absolute;
+  z-index: 1;
+  right: -130px;
+  top: -210px;
+  width: 700px;
+  height: 700px;
+}
+.writing__text1 p {
+  position: absolute;
+  z-index: 11;
+  left: 120px;
+  top: 180px;
+  font-size: 36px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 600;
+  color: #223899;
+}
+.writing__text2 p {
+  position: absolute;
+  z-index: 12;
+  left: 120px;
+  top: 340px;
+  font-size: 14px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #223899;
+}
+.writing__text-button a {
+  position: absolute;
+  z-index: 13;
+  left: 120px;
+  top: 420px;
+  font-size: 14px;
+  border: 1px solid rgb(236, 78, 16);
+  background-color: rgb(236, 78, 16);
+  color: white;
+  text-decoration: none;
+  padding-inline: 25px;
+  padding-block: 10px;
+  border-radius: 20px;
+  box-shadow: 0px 5px 3px rgb(245, 156, 156);
+}
+.stat__box1 p {
+  position: absolute;
+  z-index: 14;
+  width: 170px;
+  height: 160px;
+  left: 730px;
+  border: 1px solid white;
+  color: white;
+  background-color: white;
+  top: 170px;
+}
+.stat__box1_1 p {
+  position: absolute;
+  z-index: 15;
+  width: 150px;
+  height: 140px;
+  font-size: 15px;
+  left: 740px;
+  border: 1px solid rgb(189, 214, 223);
+  color: rgb(245, 249, 250);
+  background-color: rgb(245, 249, 250);
+  top: 180px;
+  text-decoration: overline rgb(189, 214, 223);
+}
+.tiny__box1 p {
+  position: absolute;
+  z-index: 17;
+  width: 20px;
+  height: 30px;
+  font-size: 8px;
+  left: 745px;
+  top: 247px;
+  border: 1px solid rgb(236, 78, 16);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #ec4e10;
+  background-color: rgb(236, 78, 16);
+}
+.tiny__box1-1 p {
+  position: absolute;
+  z-index: 16;
+  width: 20px;
+  height: 15px;
+  font-size: 8px;
+  left: 745px;
+  top: 272px;
+  border: 1px solid #223899;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #223899;
+  background-color: #223899;
+}
+.tiny__box2 p {
+  position: absolute;
+  z-index: 19;
+  width: 20px;
+  height: 30px;
+  font-size: 8px;
+  left: 775px;
+  top: 220px;
+  border: 1px solid rgb(236, 78, 16);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: rgb(236, 78, 16);
+  background-color: rgb(236, 78, 16);
+}
+.tiny__box2-2 p {
+  position: absolute;
+  z-index: 18;
+  width: 20px;
+  height: 50px;
+  font-size: 8px;
+  left: 775px;
+  top: 240px;
+  border: 1px solid #223899;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #223899;
+  background-color: #223899;
+}
+.tiny__box3 p {
+  position: absolute;
+  z-index: 21;
+  width: 20px;
+  height: 25px;
+  font-size: 8px;
+  left: 805px;
+  top: 249px;
+  border: 1px solid #223899;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: #223899;
+  background-color: #223899;
+}
+.tiny__box3-3 p {
+  position: absolute;
+  z-index: 20;
+  width: 20px;
+  height: 45px;
+  font-size: 8px;
+  left: 805px;
+  top: 270px;
+  border: 1px solid rgb(236, 78, 16);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: rgb(236, 78, 16);
+  background-color: rgb(236, 78, 16);
+}
+.tiny__box4 p {
+  position: absolute;
+  z-index: 22;
+  width: 20px;
+  height: 20px;
+  font-size: 8px;
+  left: 835px;
+  top: 195px;
+  border: 1px solid #223899;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: #223899;
+  background-color: #223899;
+}
+.tiny__box4-4 p {
+  position: absolute;
+  z-index: 23;
+  width: 20px;
+  height: 40px;
+  font-size: 8px;
+  left: 835px;
+  top: 210px;
+  border: 1px solid rgb(236, 78, 16);
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  color: rgb(236, 78, 16);
+  background-color: rgb(236, 78, 16);
+}
+.tiny__box5 p {
+  position: absolute;
+  z-index: 25;
+  width: 20px;
+  height: 35px;
+  font-size: 8px;
+  left: 865px;
+  top: 248px;
+  border: 1px solid rgb(236, 78, 16);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  color: rgb(236, 78, 16);
+  background-color: rgb(236, 78, 16);
+}
+.tiny__box5-5 p {
+  position: absolute;
+  z-index: 24;
+  width: 20px;
+  height: 15px;
+  font-size: 8px;
+  left: 865px;
+  top: 277px;
+  border: 1px solid #223899;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+  color: #223899;
+  background-color: #223899;
+}
+.stat__box2 p {
+  position: absolute;
+  z-index: 26;
+  width: 170px;
+  height: 160px;
+  left: 915px;
+  border: 1px solid white;
+  color: white;
+  background-color: white;
+  top: 170px;
+}
+.circle {
+  position: absolute;
+  z-index: 27;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: #223899;
+  left: 950px;
+  top: 200px;
+}
+.circle1 {
+  position: absolute;
+  z-index: 28;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: white;
+  left: 975px;
+  top: 225px;
+}
+.stat__box3 p {
+  position: absolute;
+  z-index: 29;
+  width: 170px;
+  height: 160px;
+  left: 825px;
+  top: 345px;
+  border: 1px solid white;
+  color: white;
+  background-color: white;
+}
+.stat__box3-1 p {
+  position: absolute;
+  z-index: 30;
+  width: 150px;
+  height: 65px;
+  left: 835px;
+  font-size: 28px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+  top: 350px;
+  border-radius: 3px;
+  margin-top: 5px;
+  background-color: rgb(245, 249, 250);
+  border: 1px solid rgb(245, 249, 250);
+  text-align: center;
+  padding-top: 25px;
+  padding-right: 35px;
+}
+.stat__box3-2 p {
+  position: absolute;
+  z-index: 31;
+  width: 70px;
+  height: 64px;
+  left: 835px;
+  font-size: 14px;
+  font-weight: 600px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: white;
+  top: 430px;
+  border-radius: 3px;
+  background-color: rgb(236, 78, 16);
+  border-radius: 1px solid rgb(236, 78, 16);
+  text-align: center;
+  padding-top: 35px;
+  padding-right: 10px;
+}
+.stat__box3-3 p {
+  position: absolute;
+  z-index: 32;
+  width: 70px;
+  height: 64px;
+  left: 915px;
+  font-size: 14px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+  top: 430px;
+  border-radius: 3px;
+  background-color: rgb(245, 249, 250);
+  border-radius: 1px solid rgb(245, 249, 250);
+  text-align: center;
+  padding-top: 35px;
+  padding-right: 10px;
+}
+.more__info1 p {
+  position: absolute;
+  z-index: 33;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 27px;
+  font-weight: 600;
+  left: 120px;
+  top: 580px;
+  color: #223899;
+}
+.more__info2 p {
+  position: absolute;
+  z-index: 34;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  left: 120px;
+  top: 670px;
+  color: #223899;
+}
+.button__one a {
+  position: absolute;
+  z-index: 35;
+  left: 830px;
+  top: 580px;
+  font-size: 14px;
+  border: 1px solid rgb(236, 78, 16);
+  background-color: rgb(236, 78, 16);
+  color: white;
+  text-decoration: none;
+  padding-inline: 15px;
+  padding-block: 5px;
+  border-radius: 20px;
+}
+.button__one-text p {
+  position: absolute;
+  z-index: 36;
+  left: 900px;
+  top: 580px;
+  font-size: 14px;
+  font-weight: 650;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+}
+.button__one-text-1 p {
+  position: absolute;
+  z-index: 37;
+  left: 900px;
+  top: 610px;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+}
+.button__two a {
+  position: absolute;
+  z-index: 38;
+  left: 830px;
+  top: 720px;
+  font-size: 14px;
+  border: 1px solid rgb(236, 78, 16);
+  background-color: rgb(236, 78, 16);
+  color: white;
+  text-decoration: none;
+  padding-inline: 15px;
+  padding-block: 5px;
+  border-radius: 20px;
+}
+.button__two-text p {
+  position: absolute;
+  z-index: 39;
+  left: 900px;
+  top: 720px;
+  font-size: 14px;
+  font-weight: 650;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+}
+.button__two-text-1 p {
+  position: absolute;
+  z-index: 40;
+  left: 900px;
+  top: 750px;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+}
+.button__three a {
+  position: absolute;
+  z-index: 41;
+  left: 830px;
+  top: 860px;
+  font-size: 14px;
+  border: 1px solid rgb(236, 78, 16);
+  background-color: rgb(236, 78, 16);
+  color: white;
+  text-decoration: none;
+  padding-inline: 15px;
+  padding-block: 5px;
+  border-radius: 20px;
+}
+.button__three-text p {
+  position: absolute;
+  z-index: 42;
+  left: 900px;
+  top: 860px;
+  font-size: 14px;
+  font-weight: 650;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+}
+.button__three-text-1 p {
+  position: absolute;
+  z-index: 43;
+  left: 900px;
+  top: 890px;
+  font-size: 14px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+}
+.manage__background2 img {
+  position: absolute;
+  z-index: 44;
+  width: 700px;
+  height: 700px;
+  top: 800px;
+  left: -450px;
+}
+.feedback p {
+  position: absolute;
+  z-index: 45;
+  font-size: 32px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 650;
+  color: #223899;
+  top: 1060px;
+  left: 560px;
+}
+.feedback__box-1 p {
+  position: absolute;
+  z-index: 46;
+  width: 350px;
+  height: 150px;
+  font-size: 8px;
+  color: rgb(245, 249, 250);
+  border: 1px solid rgb(245, 249, 250);
+  background-color: rgb(245, 249, 250);
+  left: 120px;
+  top: 1200px;
+}
+.feedback__box-1__background img {
+  position: absolute;
+  z-index: 47;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  left: 255px;
+  top: 1170px;
+}
+.feedback__box-1__background p {
+  position: absolute;
+  z-index: 49;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+  top: 1245px;
+  left: 260px;
+}
+.paragraph1 p {
+  position: absolute;
+  z-index: 57;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+  top: 1270px;
+  left: 160px;
+}
+.feedback__box-2 p {
+  position: absolute;
+  z-index: 50;
+  width: 350px;
+  height: 150px;
+  font-size: 8px;
+  color: rgb(245, 249, 250);
+  border: 1px solid rgb(245, 249, 250);
+  background-color: rgb(245, 249, 250);
+  left: 505px;
+  top: 1200px;
+}
+.feedback__box-2__background img {
+  position: absolute;
+  z-index: 51;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  left: 645px;
+  top: 1170px;
+}
+.feedback__box-2__background p {
+  position: absolute;
+  z-index: 52;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+  top: 1245px;
+  left: 650px;
+}
+.paragraph2 p {
+  position: absolute;
+  z-index: 58;
+  font-size: 14px;
+  font-weight: 100;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+  top: 1270px;
+  left: 530px;
+}
+.feedback__box-3 p {
+  position: absolute;
+  z-index: 53;
+  width: 350px;
+  height: 150px;
+  font-size: 8px;
+  color: rgb(245, 249, 250);
+  border: 1px solid rgb(245, 249, 250);
+  background-color: rgb(245, 249, 250);
+  left: 890px;
+  top: 1200px;
+}
+.feedback__box-3__background img {
+  position: absolute;
+  z-index: 54;
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  left: 1030px;
+  top: 1175px;
+}
+.feedback__box-3__background p {
+  position: absolute;
+  z-index: 55;
+  font-size: 14px;
+  font-weight: 700;
+  text-align: center;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+  top: 1250px;
+  left: 1025px;
+}
+.paragraph3 p {
+  position: absolute;
+  z-index: 59;
+  font-size: 14;
+  font-weight: 100;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  color: #223899;
+  top: 1275px;
+  left: 915px;
+}
+.get__start-button a {
+  position: absolute;
+  z-index: 60;
+  font-size: 14px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(236, 78, 16);
+  border: 1px solid rgb(236, 78, 16);
+  padding-inline: 25px;
+  padding-block: 10px;
+  border-radius: 20px;
+  left: 620px;
+  top: 1410px;
+  box-shadow: 0px 5px 3px rgb(245, 156, 156);
+}
+.bottom__one {
+  position: absolute;
+  z-index: 61;
+  top: 1620px;
+  width: 100%;
+  height: 250px;
+  background-color: rgb(236, 78, 16);
+}
+.bottom__one-text p {
+  position: absolute;
+  z-index: 62;
+  color: white;
+  font-size: 38px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 630;
+  left: 80px;
+  top: 55px;
+}
+.bottom__one-get__started a {
+  position: absolute;
+  z-index: 63;
+  font-size: 14px;
+  text-decoration: none;
+  color: rgb(236, 78, 16);
+  background-color: white;
+  border: 1px solid white;
+  padding-inline: 25px;
+  padding-block: 10px;
+  border-radius: 20px;
+  right: 150px;
+  top: 85px;
+  box-shadow: 0px 2px 2px rgb(226, 224, 224);
+}
+.bottom__two {
+  position: absolute;
+  z-index: 64;
+  top: 1830px;
+  width: 100%;
+  height: 250px;
+  background-color: rgb(31, 29, 29);
+}
+.icon__tag2 i {
+  position: absolute;
+  z-index: 65;
+  color: rgb(236, 78, 16);
+  size: 14px;
+  left: 80px;
+  top: 50px;
+}
+.icon__tag-name2 p {
+  position: absolute;
+  z-index: 66;
+  color: white;
+  font-size: 22px;
+  left: 100px;
+  top: 40px;
+  font-weight: 600;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon__taga p {
+  position: absolute;
+  z-index: 67;
+  font-size: 14px;
+  color: white;
+  left: 300px;
+  top: 55px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon__tagb p {
+  position: absolute;
+  z-index: 68;
+  font-size: 14px;
+  color: white;
+  left: 300px;
+  top: 85px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon__tagc p {
+  position: absolute;
+  z-index: 69;
+  font-size: 14px;
+  color: white;
+  left: 300px;
+  top: 115px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon__tagd p {
+  position: absolute;
+  z-index: 70;
+  font-size: 14px;
+  color: white;
+  left: 300px;
+  top: 145px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon__tage p {
+  position: absolute;
+  z-index: 71;
+  font-size: 14px;
+  color: white;
+  left: 600px;
+  top: 55px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon__tagf p {
+  position: absolute;
+  z-index: 72;
+  font-size: 14px;
+  color: white;
+  left: 600px;
+  top: 85px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon__tagg p {
+  position: absolute;
+  z-index: 73;
+  font-size: 14px;
+  color: white;
+  left: 600px;
+  top: 115px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon__social1 i {
+  position: absolute;
+  z-index: 74;
+  left: 80px;
+  color: white;
+  font-size: 24px;
+  top: 140px;
+}
+.icon__social2 i {
+  position: absolute;
+  z-index: 75;
+  left: 110px;
+  color: white;
+  font-size: 24px;
+  top: 140px;
+}
+.icon__social3 i {
+  position: absolute;
+  z-index: 76;
+  left: 140px;
+  color: white;
+  font-size: 24px;
+  top: 140px;
+}
+.icon__social4 i {
+  position: absolute;
+  z-index: 77;
+  left: 170px;
+  color: white;
+  font-size: 24px;
+  top: 140px;
+}
+.icon__social5 i {
+  position: absolute;
+  z-index: 78;
+  left: 200px;
+  color: white;
+  font-size: 24px;
+  top: 140px;
+}
+.button__update {
+  position: absolute;
+  z-index: 79;
+  font-size: 13px;
+  text-decoration: none;
+  color: rgb(148, 142, 142);
+  background-color: white;
+  border: 1px solid white;
+  padding-inline: 25px;
+  padding-block: 10px;
+  border-radius: 20px;
+  right: 250px;
+  top: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  box-shadow: 0px 2px 2px rgb(238, 236, 236);
+}
+.button__update2 a {
+  position: absolute;
+  z-index: 80px;
+  font-size: 13px;
+  text-decoration: none;
+  color: white;
+  background-color: rgb(236, 78, 16);
+  border: 1px solid rgb(236, 78, 16);
+  padding-inline: 20px;
+  padding-block: 10px;
+  border-radius: 20px;
+  right: 180px;
+  top: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.bottom__two-copyright p {
+  position: absolute;
+  z-index: 81;
+  font-size: 14px;
+  color: rgb(148, 142, 142);
+  right: 160px;
+  top: 160px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.icon__tag3 i {
+  position: absolute;
+  z-index: 82;
+  color: rgb(31, 29, 29);
+  font-size: 22px;
+  right: 40px;
+  top: 200px;
+}
+.body button {
+  cursor: pointer;
+}
+.body button:hover {
+  border: 1px solid;
+  color: rgb(236, 78, 16);
+  background-color: white;
+}
+
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+  .icon__tag i {
+    left: 25px;
+    top: 40px;
+    font-size: 24px;
+  }
+  .icon__tag-name p {
+    font-size: 25px;
+    left: 55px;
+    top: 36px;
+    font-weight: 650;
+  }
+  .icon__tag1 p {
+    font-size: 0px;
+    left: 0px;
+    top: 0px;
+  }
+  .icon__tag2 p {
+    font-size: 0px;
+    left: 0px;
+    top: px;
+  }
+  .icon__tag3 p {
+    font-size: 0px;
+    left: 0px;
+    top: 0px;
+  }
+  .icon__tag4 p {
+    font-size: 0px;
+    left: 0px;
+    top: 0px;
+  }
+  .icon__tag5 p {
+    font-size: 0px;
+    left: 0px;
+    top: 0px;
+  }
+  .icon__tag-get__started a {
+    font-size: 16px;
+    right: 300px;
+    top: 42px;
+  }
+  .icon__tag3 i {
+    color: #223899;
+    font-size: 26px;
+    right: 25px;
+    top: -1790px;
+  }
+  .manage__background1 img {
+    right: -300px;
+    top: -210px;
+    width: 700px;
+    height: 700px;
+  }
+  .writing__text1 p {
+    left: 25px;
+    top: 160px;
+    font-size: 37px;
+  }
+  .writing__text2 p {
+    left: 25px;
+    top: 330px;
+    font-size: 16px;
+  }
+  .writing__text-button a {
+    left: 25px;
+    top: 430px;
+    font-size: 16px;
+  }
+  .more__info1 p {
+    font-size: 28px;
+    left: 25px;
+  }
+  .more__info2 p {
+    font-size: 16px;
+    left: 25px;
+    top: 680px;
+  }
+  .button__one a {
+    left: 350px;
+    top: 530px;
+    font-size: 16px;
+    padding-inline: 20px;
+    padding-block: 10px;
+  }
+  .button__one-text p {
+    left: 350px;
+    top: 590px;
+    font-size: 17px;
+  }
+  .button__one-text-1 p {
+    left: 350px;
+    top: 625px;
+    font-size: 16px;
+  }
+  .button__two a {
+    left: 350px;
+    top: 750px;
+    font-size: 16px;
+    padding-inline: 20px;
+    padding-block: 10px;
+  }
+  .button__two-text p {
+    left: 350px;
+    top: 810px;
+    font-size: 16px;
+  }
+  .button__two-text-1 p {
+    left: 350px;
+    top: 845px;
+    font-size: 16px;
+  }
+  .button__three a {
+    left: 350px;
+    top: 970px;
+    font-size: 16px;
+    padding-inline: 20px;
+    padding-block: 10px;
+  }
+  .button__three-text p {
+    left: 350px;
+    top: 1030px;
+    font-size: 16px;
+  }
+  .button__three-text-1 p {
+    left: 350px;
+    top: 1065px;
+    font-size: 16px;
+  }
+  .manage__background2 img {
+    top: 900px;
+    left: -550px;
+  }
+}

@@ -1,0 +1,167 @@
+* {
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
+body {
+  font-family: "Poppins", sans-serif;
+}
+header {
+  background-color: blue;
+  padding: 2rem;
+}
+nav {
+  background-color: black;
+}
+section {
+  background-color: rgba(0, 0, 0, 0.479);
+  background-image: url(/IMAGES/full-shot-smiley-woman-yoga-mat.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* background: contain; */
+  /* so that it uses the best resolution of the image to cover only where possible */
+  height: 500px;
+  background-position: bottom;
+  background-attachment: fixed;
+  background-blend-mode: overlay;
+  color: white;
+}
+/* 01/05/2025 */
+section p {
+  padding: 3rem;
+  /* border: border-width border-style border-color; */
+  /* border: 10px solid yellow; */
+  /* border-width: 10px;
+  border-color: yellow;
+  border-style: solid; */
+  font-family: "Titanium Web" sans-serif;
+}
+section p:hover {
+  border-bottom: 2px solid black;
+}
+section a {
+  background-color: blueviolet;
+  /* color: white; */
+  color: rgba(0, 255, 255, 0.486);
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-weight: 800;
+  font-style: oblique;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.circle {
+  margin-top: 2rem;
+  width: 250px;
+  height: 250px;
+  background-color: rgba(165, 42, 42, 0.411);
+  /* background-image: linear-gradient(direction, color1, color2, color3); */
+  /* background-image: linear-gradient(to top, red, green, blue); */
+  /* background-image: radial-gradient(shape, color1, color2, color3); */
+  background-image: radial-gradient(ellipse, red, black, green);
+  border-radius: 50%;
+  box-shadow: 10px -10px 4px rgba(128, 128, 128, 0.521);
+  /* cursor: crosshair; */
+  cursor: not-allowed;
+  position: center;
+}
+section img {
+  width: 250px;
+  height: 250px;
+  /* filter: grayscale(1); */
+  /* filter: invert(1); */
+  /* filter: blur(3px); */
+  filter: brightness(150%);
+}
+/* 02/05/2025 */
+.heightcalc {
+  width: 50%;
+  height: 400px;
+  background-color: red;
+  color: white;
+}
+.unit {
+  background-color: chocolate;
+  height: 500px;
+  width: 500px;
+}
+/* block level and inline elements */
+/* Block level elements; it takes the full width of your browser e.g. header element, section, main, div, p */
+/* Inline elements takes the available space they need e.g. inputs, anchors, buttons, textarea, img*/
+/* note; you can make an inline elements become a block element by placing it inside a container (div) */
+/* Absolute unit; will always remain the same no matter the size of the screen or browser. */
+/* Relative unit; this changes based on the size of the screen (%) */
+/* 1rem = 16px */
+/* Viewport is the view from the top to the bottom of your screen or from the left to the right. */
+/* VH means view height */
+/* VW means view weight */
+.widthcalc {
+  background-color: blueviolet;
+  width: 100%;
+  /* height: 200px; */
+}
+.withchild {
+  background-color: crimson;
+  width: 50vw;
+  overflow-y: scroll;
+  overflow-x: scroll;
+  height: 300px;
+}
+
+.body-img {
+  overflow: hidden;
+  width: 700px;
+  height: 500px;
+  background-color: blue;
+  opacity: 0.8;
+}
+.body-img img {
+  width: 100%;
+  object-fit: contain;
+  height: 100%;
+}
+/* 06/05/2025 */
+.box-one {
+  background-color: brown;
+  font-size: 24px;
+  width: 200px;
+  height: 200px;
+  /* padding: 25px; */
+  /* padding: 20px 25px 30px 40px; */
+  /* padding-top: 25px;
+  padding-right: 20px;
+  padding-bottom: 30px;
+  padding-left: 40px; */
+  /* padding-inline: 20px 30px;
+  padding-block: 30px 40px;
+  border: 20px solid green;
+  border-right: 20px solid black;
+  border-top: 20px dashed yellow;
+  margin: 20px 25px 30px 35px;
+  margin: 200px; */
+  box-sizing: content-box;
+  padding: 30px;
+  margin: 60px;
+  text-align: justify;
+  text-decoration: underline;
+  text-shadow: 5px 2px 5px pink;
+  /* text-shadow: value is for left and right, top and bottom and capacity of bluriness of the text; */
+  text-transform: capitalize;
+  /* transform: rotate(45deg); */
+  /* transform: skew(10deg); */
+  /* transform: translate(200px); */
+}
+.box-one:hover {
+  transform: scale(1.2);
+  transform: skew(-5deg);
+  transform: translate(200px);
+}
+.box-two {
+  background-color: rgb(71, 53, 53);
+  font-size: 24px;
+  width: 400px;
+  height: 300px;
+  margin: 20px;
+  margin-left: 600px;
+  text-align: center;
+}

@@ -1,0 +1,127 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*  Background Color */
+  --whitesmoke: #ffffff;
+  --black: #000000;
+  --aqua: #88fbfd;
+  --pink: #ff4892;
+  --gray: #333333;
+  --white: #fff;
+
+  /* Text Color */
+  --black1: #000000;
+  --gray1: #111111;
+  --whitesmoke1: #ffffff;
+  --purple: #834496;
+  --aqua1: #55f9fc;
+  --yellow: #fbe900;
+  --lavender: #e2c0ec;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  background-color: white;
+  position: relative;
+}
+
+/* main,
+footer {
+  display: flex;
+  place-content: center;
+  grid-template-columns: 100%;
+  text-align: center;
+} */
+
+main {
+    flex-grow: 1;
+    position: absolute;
+}
+
+.nav1 {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  align-items: center;
+  height: 70px;
+  background-color:whitesmoke;
+  gap: 10px;
+  padding-inline: 10px;
+  z-index: 99;
+  width: 100%;
+}
+
+
+.nicepage-icon:hover {
+    cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding-right: 100px;
+  z-index: 2;
+}
+
+.icons:hover {
+    cursor: pointer;
+}
+
+.nav2 {
+  display: none;
+}
+
+.main1 {
+  position: absolute;
+  z-index: 3;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  /* gap: 500px; */
+  height: 70px;
+  background-color: green;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 1rem;
+    gap: 20px;
+}
+
+ul:hover {
+    cursor: pointer;
+}
+  
+.logo-img {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+
+}
+.logo-img:hover {
+    cursor: pointer;
+}
+    
+
+.main2 {
+  display: none;
+}
+
+.humans {
+    position: absolute;
+    width: 100%;
+}

@@ -1,0 +1,280 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /*  Background Color */
+  --whitesmoke: #ffffff;
+  --black: #000000;
+  --aqua: #88fbfd;
+  --pink: #ff4892;
+  --gray: #333333;
+  --white: #fff;
+
+  /* Text Color */
+  --black1: #000000;
+  --gray1: #111111;
+  --whitesmoke1: #ffffff;
+  --purple: #834496;
+  --aqua1: #55f9fc;
+  --yellow: #fbe900;
+  --lavender: #e2c0ec;
+}
+
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  min-height: 100vh;
+  background-color: white;
+  flex-grow: 1;
+  width: 100%;
+  overflow-x: clip;
+}
+
+.nav1 {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 70px;
+  background-color: whitesmoke;
+  width: 100%;
+  padding-inline: 10px;
+  z-index: 999;
+}
+
+.nicepage-icon {
+  margin-top: 5px;
+  z-index: 1;
+}
+.nicepage-icon:hover {
+  cursor: pointer;
+}
+
+.cancel {
+  /* padding-right: 5px; */
+  z-index: 2;
+}
+.cancel:hover {
+  cursor: pointer;
+}
+
+.icons {
+  display: flex;
+  gap: 15px;
+  padding-right: 100px;
+  z-index: 3;
+}
+.icons:hover {
+  cursor: pointer;
+}
+
+.nav-2 {
+  display: none;
+}
+
+.sec1 {
+  position: relative;
+  display: flex;
+  height: 140px;
+  background-color: #ffffff;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  padding-inline: 110px;
+  z-index: 4;
+}
+
+.logo-img {
+  margin-top: 75px;
+  z-index: 5;
+}
+.logo-img:hover {
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  font-size: 1rem;
+  gap: 20px;
+  margin-top: 75px;
+  z-index: 6;
+}
+ul:hover {
+  cursor: pointer;
+}
+
+.main2 {
+  display: none;
+}
+.humans {
+  position: absolute;
+  z-index: 7;
+}
+
+.ball-1 {
+  position: absolute;
+  z-index: 8;
+  margin-top: -660px;
+  padding-left: 80px;
+}
+
+.humans1 {
+  position: absolute;
+  margin-top: -535px;
+  z-index: 9;
+  padding-left: 170px;
+  font-size: 95px;
+  font-weight: bolder;
+  color: #ffffff;
+}
+
+.para1 {
+  position: absolute;
+  z-index: 10;
+  margin-top: -300px;
+  padding-left: 170px;
+  font-size: 22px;
+  font-weight: 100;
+  line-height: 2rem;
+  color: #ffffff;
+}
+
+.mob1 {
+  display: none;
+}
+
+.bot1 {
+  margin-left: 50px;
+  position: absolute;
+  z-index: 11;
+  padding-left: 20px;
+}
+
+.tech-news {
+  position: relative;
+  z-index: 12;
+  height: 290px;
+}
+
+.bubble1 {
+  position: absolute;
+  z-index: 13;
+  padding-left: 930px;
+  margin-top: -475px;
+}
+
+.big-ball {
+  position: relative;
+  z-index: 14;
+  background-color: #ffffff;
+  width: 100%;
+  margin-top: 1050px;
+  padding-left: 660px;
+}
+
+.big-ball img {
+  position: absolute;
+  border-radius: 50%;
+  z-index: 15;
+  margin-bottom: -30px;
+}
+
+.news {
+  position: absolute;
+  z-index: 16;
+  margin-top: -250px;
+  padding-left: 170px;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+.news1 {
+  position: absolute;
+  z-index: 18;
+  padding-left: 170px;
+  margin-top: -210px;
+  font-size: 56px;
+  font-weight: 900;
+  color: #834496;
+}
+
+.box {
+  position: absolute;
+  height: 15px;
+  width: 380px;
+  z-index: 17;
+  background-color: #55f9fc;
+  margin-left: 170px;
+  margin-top: -160px;
+}
+
+.news2 {
+  position: absolute;
+  font-size: 20px;
+  font-family: sans-serif;
+  font-weight: lighter;
+  z-index: 19;
+  padding-left: 170px;
+  margin-top: -100px;
+  line-height: 30px;
+}
+
+.news4 {
+  position: absolute;
+  z-index: 20;
+  font-family: sans-serif;
+  font-weight: 700;
+  color: #834496;
+  padding-inline: 40px;
+  padding-block: 15px;
+  border: 2px solid #55f9fc;
+  background-color: #ffffff;
+  margin-left: 170px;
+  margin-top: 140px;
+  font-size: 15px;
+}
+
+.tech-news2 {
+  display: none;
+}
+
+.robo2 {
+  display: none;
+}
+
+.robo1 {
+  position: relative;
+}
+
+.robo-bubble {
+  position: absolute;
+  z-index: 21;
+  margin-top: -1130px;
+  margin-left: -20px;
+}
+
+.robo-ball {
+  position: absolute;
+  z-index: 22;
+  margin-top: -960px;
+  margin-left: 1050px;
+}
+
+.robo-flex {
+  display: flex;
+  position: absolute;
+  z-index: 23;
+  margin-top: -580px;
+  gap: 30px;
+  /* width: 100%; */
+  justify-content: center;
+  margin-left: 100px;
+  
+}
+

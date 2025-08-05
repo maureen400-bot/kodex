@@ -1,0 +1,88 @@
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.parent {
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+  color: white;
+  margin: 10px;
+  /* transform: matrix(scaleX(0.2), skewY(20deg), skewX(20deg), scaleY(0.8), translateY(50px), translateX(60px)); */
+  /* transition-property: background-color, transform; */
+  /* transform: matrix(0.2, 20deg, 30deg, 0.8, 60px, 50px); */
+  /* transition-duration: 2s; */
+  /* transition-timing-function: ease-in-out; */
+  /* transition-delay:1s; */
+  /* transform: rotateY(0deg); */
+}
+
+.parent:hover {
+  /* transform:translate(x,y); */
+  /* transform: translate(50px, 50px); */
+  /* transform: translate(-50px, 50px); */
+  /* transform: rotate(45deg); */
+  /* transform: scale(0.5,0.8);  scale(x,y) */
+  /* transform: skew(30deg,15deg); */
+  /* /* transform: matrix(scaleX(), skewY(), skewX(), scaleY(), translateY(), translateX()); * */
+  /* background-color: yellow; */
+  /* color: black; */
+  /* transform: rotateY(180deg); */
+  animation-name: bounce;
+  /* animation-duration: 2s; */
+  animation-iteration-count: 3;
+  /* animation-iteration-count: infinite; */
+  border-radius: 50%;
+  border: 1px solid black;
+  animation-duration: 5s;
+  transition-timing-function: ease-in;
+  /* animation-direction: alternate; */
+  /* animation-direction: alternate-reverse; */
+  /* animation-fill-mode: forwards; */
+  /* animation-fill-mode: backwards; */
+  }
+
+  /* @keyframes example {
+    from{ background-color: red;}
+    to{background-color: green; color: black;}
+  } */
+
+  /* @keyframes example {
+    0% {background-color: yellow;}
+    25% {background-color: yellowgreen;}
+    50% {background-color: blue;}
+    75% {background-color: blueviolet;}
+    100% {background-color: brown;}
+  } */
+
+/* @keyframes fade {
+  0% {opacity: 0;}
+  50% {opacity: 1;}
+  100% {opacity: 0;}
+} */
+/* 
+@keyframes fade {
+  0% {opacity: 1;}
+  50% {opacity: 0;}
+  100% {opacity: 1;}
+} */
+
+ /* @keyframes slideIn {
+from {transform: translate(100px);}
+to {transform: translate(0px);}
+ } */
+
+ /* @keyframes spin {
+ to {transform: rotate(360deg);}
+ } */
+
+ @keyframes bounce {
+ 0% {transform: translatey(0);}
+ 50% {transform: translateY(-50px);}
+ /* 50% {transform: translateY(50px); */
+ 100% {transform: translateY(0);}
+ }

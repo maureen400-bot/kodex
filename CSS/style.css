@@ -1,0 +1,245 @@
+/* element css */
+/* p{
+    background-color: aqua;
+    color: brown;
+} */
+
+/* class selector */
+/* .sec {
+  background-color: aqua;
+}
+.first{
+    color: green;
+}
+#third{
+    background-color: brown;
+}
+#fouth{
+    color: gold;
+}
+h2, p{
+    background-color: black;
+    color: white;
+} */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+/* descendant combinators */
+/* div p{
+    background-color: black;
+    color: white;
+} */
+/* child combinators */
+/* div > p {
+  background-color: blue;
+  color: white;
+} */
+/* for Adjacent combinators/siblings */
+/* h1 + p, h2 + p{
+    background-color:red;
+    color: blue;
+ } */
+/* for general siblings */
+/* h1 ~ p {
+  background-color: green;
+  color: white;
+} */
+/* descendant selector */
+
+/* button { */
+/* margin: 20px; */
+/* margin-top: 20px;
+  margin-inline: 20px;
+  margin-block: 30px;
+  cursor: pointer;
+}
+/* button:hover {
+  background-color: goldenrod;
+  color: white;
+}
+button:active {
+  background-color: green;
+}
+button:visited {
+  background-color: purple;
+}
+button:checked{
+background-color: blue;
+} */
+/* a:hover{
+    background-color: gray;
+    color: black;
+} */
+/* a:visited{
+    background-color: red;
+    color: green;
+} */
+/* a:active{
+    color: palevioletred;
+    background-color: azure;
+} */
+/* 03-07-2025 */
+/* :root {
+  --red: #bf1212;
+  --green: #03a84e;
+  --darkgray: #242424;
+  --primarytext: arial;
+  --sectext: sans-serif;
+} */
+
+/* h1 {
+  color: var(--green);
+  font-family: var(--primarytext);
+} */
+
+/* div:first-child {
+  background-color: red;
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+} */
+
+/* div:last-child {
+  background-color: red;
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+} */
+
+/* div:nth-child {
+  color: white;
+  background-color: red;
+  font-weight: 900;
+  font-size: 1.5rem;
+} */
+
+/* another method for styling pseudoclasses are as follow: */
+/* .parent > .box:first-child {
+  background-color: red;
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+} */
+
+/* .parent > .box:not(:last-child) {
+  background-color: red;
+  color: white;
+  font-weight: 900;
+  font-size: 1.5rem;
+} */
+
+/* p {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+p::after {
+  content: " This is a pseudo-element such as AFTER";
+  font-weight: 800;
+  font-size: 2.5rem;
+  background-color: red;
+  color: white;
+}
+
+p::before {
+  content: " This is a pseudo-element such as BEFORE";
+  font-weight: 800;
+  font-size: 2.5rem;
+  background-color: blue;
+  color: white;
+} */
+
+/* p::first-letter {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: red;
+} */
+
+/* p::first-line {
+  font-weight: bolder;
+  font-size: 2rem;
+  color: blue;
+} */
+
+/* p::selection {
+  background-color: green;
+  color: white;
+} */
+
+/* p {
+  line-height: 120px;
+  letter-spacing: 0.6rem;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* for subscribe button */
+button {
+  background-color: #cc0000;
+  /* border-width: 1px;
+  border-style: solid;
+  border-color: white; */
+  border: 1px solid white;
+  color: white;
+  /* padding-top: 0.5rem;
+  padding-bottom: 0.5rem; */
+  /* padding-block: 0.5rem; */
+  /* padding-left: 1rem;
+  padding-right: 1rem; */
+  /* padding-inline: 1rem; */
+  padding: 0.5rem 1rem 0.5rem 1rem;
+  /* margin-top: 1rem;
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem; */
+  /* margin-block: 1rem;
+  margin-inline: 2rem; */
+  margin: 1rem rem 1rem 2rem;
+  margin-right: 10px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+button:hover {
+  background-color: #cc0000a6;
+}
+button:active {
+  background-color: #cc000056;
+}
+/* for join button */
+.join {
+  background-color: white;
+  color: #065fd4;
+  border: 1.5px solid #065fd4;
+  padding: 0.4rem 1 rem 0.4rem 1rem;
+  border-radius: 3px;
+  margin-right: 10px;
+}
+
+.join:hover {
+  background-color: #065fd4;
+  color: white;
+}
+
+.join:active {
+  background-color: #0247a1;
+}
+/* for tweeter button */
+.tweet {
+  background-color: #1d9bf0;
+  color: white;
+  border: 1px solid #e1e8ed;
+  border-radius: 30px;
+  padding: 0.6rem 1rem 0.6rem 1rem;
+  cursor: pointer;
+}
+
+.tweet:hover {
+  background-color: #1a8cd8;
+  box-shadow: 2px 2px 16px rgb(0, 0, 0 0.391);
+}
