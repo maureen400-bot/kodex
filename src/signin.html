@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link
+      rel="shortcut icon"
+      href="https://kodexafrica.com/new/img/kodexafricaLogo.png"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="m-0 p-0 box-border w-screen h-screen">
+    <nav
+      class="bg-[#1b1b1b] text-[#dddddd] flex justify-between px-10 h-23 py-5 items-center fixed top-0 right-0 left-0 z-999"
+    >
+      <div>
+        <a href="https://kodexafrica.com/"
+          ><img
+            class="w-[120px]"
+            src="https://kodexafrica.com/new/img/kodexafricaLogo.png"
+            alt="kodex"
+        /></a>
+      </div>
+
+      <div class="flex gap-x-10 pl-100 font-medium items-center">
+        <a
+          class="hover:underline decoration-amber-500 decoration-2 transition duration-500 delay-700 ease-out"
+          href="./home.html"
+          >Home</a
+        >
+
+        <a
+          class="hover:underline decoration-amber-500 decoration-2 transition duration-500 delay-700 ease-out"
+          href="#"
+          >About Us</a
+        >
+        <a href="#"
+          ><select
+            class="cursor-pointer hover:underline decoration-amber-500 decoration-2 transition duration-500 delay-700 ease-out"
+            name=""
+            id=""
+          >
+            <option value="">Our Subsidiaries</option>
+            <option value="">Kodex Academy</option>
+            <option value="">Kodex Build</option>
+            <option value="">The SpaceNG</option>
+          </select></a
+        >
+        <a
+          class="hover:underline decoration-amber-500 decoration-2 transition duration-500 delay-700 ease-out"
+          href="https://kodexafrica.com/contact"
+          >Contact Us</a
+        >
+      </div>
+
+      <div class="flex gap-x-10">
+        <button>
+          <a
+            class="bg-[#e68815] text-[#dddddd] px-5 py-2 cursor-pointer rounded-[5px] hover:bg-[#1b1b1b] transition duration-500 delay-100 ease-out"
+            href="./signin.html"
+            >Sign In</a
+          >
+        </button>
+
+        <button>
+          <a
+            class="bg-[#e68815] text-[#dddddd] px-5 py-2 cursor-pointer rounded-[5px] hover:bg-[#1b1b1b] transition duration-500 delay-100 ease-out"
+            href="./signup.html"
+            >Sign Up</a
+          >
+        </button>
+      </div>
+    </nav>
+
+    <section class="relative z-1">
+      <div
+        class="bg-[#e68815] w-[30vw] h-[90vh] absolute border-2 border-[#ffffff] top-50 left-120 rounded-2xl z-2"
+      >
+        <h1
+          class="z-3 font-sans font-bold text-[28px] text-[#ffffff] mt-6 ml-10"
+        >
+          Sign in
+        </h1>
+        <a class="hover:cursor-pointer text-[#ffffff]" href="./signup.html">
+          <p class="z-4 ml-10 text-[#ffffff] text-[14px] font-sans font-normal">
+            or <span class="text-[#1b1b1b]">create an account</span>
+          </p></a
+        >
+        <div class="z-5 flex flex-col my-15 mx-10">
+          <form action="">
+            <label class="font-medium mt-6 z-6 text-[#ffffff]" for="email"
+              >Email:</label
+            ><br />
+            <input
+              class="border-[2px] w-full h-10 mb-10 px-3 rounded-[10px] border-[#ffffff]"
+              type="email"
+              placeholder="email"
+            />
+            <br />
+            <label class="font-medium mt-6 z-7 text-[#ffffff]" for="password"
+              >Password:</label
+            ><br />
+            <input
+              class="border-[2px] w-full h-10 mb-10 px-3 rounded-[10px] border-[#ffffff]"
+              type="password"
+              placeholder="password"
+            />
+          </form>
+          <a class="z-8 hover:cursor-pointer" href="#"
+            ><div class="z-9 text-[#ffffff] text-[18px]">
+              <i class="ri-arrow-right-box-fill"></i></div
+          ></a>
+          <p
+            class="z-10 text-[12px] text-[#1b1b1b] font-normal font-sans ml-[25px] mt-[-25px]"
+          >
+            Remember Me
+          </p>
+          <a href="./home.html"
+            ><button
+              class="z-11 font-normal font-sans text-[16px] text-[#e68815] w-full bg-[#ffffff] py-2 px-3 mt-[40px] rounded-[10px] hover:bg-[#1b1b1b] hover:text-[#ffffff] hover:cursor-pointer transition delay-150 duration-200"
+            >
+              Sign In
+            </button></a
+          >
+          <a href="#"
+            ><p
+              class="z-12 font-normal font-sans text-[14px] text-[#1b1b1b] py-2 ml-[5px]"
+            >
+              Forgot your password?
+            </p></a
+          >
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

@@ -85,3 +85,8 @@ console.log(w > 0 && z > 0);
 for (let looping = 1; looping <= 15; looping++) {
   console.log("I am sorry");
 }
+
+
+function greet(firstName, lastName) {
+  console.log("Hello" + "", firstName + "")
+}  
