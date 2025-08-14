@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <h2>Click the Button</h2>
+    <div id="number"count>0</div>
+    <button onclick="increaseCount()">+</button>
+     <button onclick="decreaseCount()">-</button>
+     <button onclick="resetCount()">reset</button>
+     <button onclick="startAutoIncreament()">Auto</button>
+    
+
+    <script>
+        let count = 0;
+
+        function increaseCount() {
+            count++;
+            document.getElementById("number").innerHTML = count;
+        }
+
+     
+
+        function decreaseCount() {
+            count--;
+            document.getElementById("number").innerHTML = count;
+        }
+
+        function increaseCount() {
+            if (count < 20) {
+                count++;
+                document.getElementById("number").innerHTML = count;
+            }
+        }
+
+        function resetCount() {
+           count = 0;
+           document.getElementById("number").innerHTML = count;
+        }
+
+        // let autoInterval;
+        // function startAutoIncreament() {
+        //     autoInterval = setInterval(() => {
+        //         if (count === 20) clearInterval(autoInterval);
+        //     },1000); 
+        // }
+
+        let intervalId = null;
+
+        function startAutoIncreament() {
+            if (intervalId !== null) return;
+
+            intervalId = setInterval(() => {
+                if (count < 20) {
+                    count++;
+                    document.getElementById("number").innerHTML = count;
+                } else {
+                    stopCounting();
+                    alert(`e don do abeg, you don reach ${count}`);
+                }
+            }, 1000);
+
+        }
+
+        function stopCounting() {
+            clearInterval(intervalId);
+            intervalId = null;
+        }
+    </script>
+
+    
+</body>
+</html>

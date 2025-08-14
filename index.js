@@ -89,4 +89,5 @@ for (let looping = 1; looping <= 15; looping++) {
 
 function greet(firstName, lastName) {
   console.log("Hello" + "", firstName + "")
-}  
+} 
+

@@ -14,34 +14,34 @@
       rel="stylesheet"
     />
   </head>
-  <body class="m-0 p-0 box-border w-screen h-screen">
+  <body class="m-0 p-0 box-border w-screen h-screen overflow-x-hidden">
     <nav
       class="bg-[#1b1b1b] text-[#dddddd] flex justify-between px-10 h-23 py-5 items-center fixed top-0 right-0 left-0 z-999"
     >
       <div>
         <a href="https://kodexafrica.com/"
           ><img
-            class="w-[120px]"
+            class="w-[120px] z-1"
             src="https://kodexafrica.com/new/img/kodexafricaLogo.png"
             alt="kodex"
         /></a>
       </div>
 
-      <div class="flex gap-x-10 pl-100 font-medium items-center">
+      <div class="flex gap-x-10 pl-100 z-2 font-medium items-center">
         <a
-          class="hover:underline decoration-amber-500 decoration-2 transition duration-500 delay-700 ease-out"
+          class="hover:underline z-3 decoration-amber-500 decoration-2 transition duration-500 delay-700 ease-out"
           href="./home.html"
           >Home</a
         >
 
         <a
-          class="hover:underline decoration-amber-500 decoration-2 transition duration-500 delay-700 ease-out"
+          class="hover:underline z-4 decoration-amber-500 decoration-2 transition duration-500 delay-700 ease-out"
           href="#"
           >About Us</a
         >
         <a href="#"
           ><select
-            class="cursor-pointer hover:underline decoration-amber-500 decoration-2 transition duration-500 delay-700 ease-out"
+            class="cursor-pointer z-5 hover:underline decoration-amber-500 decoration-2 transition duration-500 delay-700 ease-out"
             name=""
             id=""
           >
@@ -52,16 +52,16 @@
           </select></a
         >
         <a
-          class="hover:underline decoration-amber-500 decoration-2 transition duration-500 delay-700 ease-out"
+          class="hover:underline decoration-amber-500 decoration-2 z-6 transition duration-500 delay-700 ease-out"
           href="https://kodexafrica.com/contact"
           >Contact Us</a
         >
       </div>
 
-      <div class="flex gap-x-10">
+      <div class="flex gap-x-10 z-7">
         <button>
           <a
-            class="bg-[#e68815] text-[#dddddd] px-5 py-2 cursor-pointer rounded-[5px] hover:bg-[#1b1b1b] transition duration-500 delay-100 ease-out"
+            class="bg-[#e68815] z-8 text-[#dddddd] px-5 py-2 cursor-pointer rounded-[5px] hover:bg-[#1b1b1b] transition duration-500 delay-100 ease-out"
             href="./signin.html"
             >Sign In</a
           >
@@ -69,14 +69,44 @@
 
         <button>
           <a
-            class="bg-[#e68815] text-[#dddddd] px-5 py-2 cursor-pointer rounded-[5px] hover:bg-[#1b1b1b] transition duration-500 delay-100 ease-out"
+            class="bg-[#e68815] text-[#dddddd] z-9 px-5 py-2 cursor-pointer rounded-[5px] hover:bg-[#1b1b1b] transition duration-500 delay-100 ease-out"
             href="./signup.html"
             >Sign Up</a
           >
         </button>
       </div>
     </nav>
-
+    <section
+      class="z-10 relative w-full bg-[#ffffff] h-[80vh] flex flex-col items-center justify-center gap-[20px]"
+    >
+      <div class="z-11 absolute ml-[-150px] mt-[70px]">
+        <h2
+          class="z-12 font-sans font-normal text-[15px] text-[#232223] mt-[-30px] ml-[-560px] pl-[-80px]"
+        >
+          24/7 CUSTOMER SUPPORT
+        </h2>
+        <h1
+          class="z-13 font-sans font-bold text-[36px] text-[#e68815] ml-[-560px]"
+        >
+          Need Assistance? Contact Us
+        </h1>
+        <p class="z-14 font-sans font-normal text-[16px] mt-[20px] ml-[-560px]">
+          At Kodex Africa, we value your questions, feedback, and inquiries. We
+          believe in <br />fostering open communication with our customers and
+          partners.
+        </p>
+      </div>
+      <div class="z-15 absolute">
+        <img
+          class="w-[380px] h-[300px] ml-[600px] mt-[70px] rounded-t-[10px]"
+          src="/IMAGES/image copy 10.png"
+          alt="contact"
+        />
+      </div>
+    </section>
+    <section class="z-16 w-full h-[60vh] bg-[#ffffff]">
+      <div class="z-17 w-full ml-[1px]"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.305093457855!2d7.053362574044083!3d6.223442826579476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x104379af706c6619%3A0x2598afc465c51641!2sKodex%20Africa!5e0!3m2!1sen!2sng!4v1755153060447!5m2!1sen!2sng" width="1350" height="450" style="border:15px black solid;" allowfullscreen="allow" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+    </section>
     <section
       class="relative z-82 w-full pt-[230px] bg-[#1b1b1b] h-[100vh] flex flex-col items-center justify-center gap-[50px]"
     >
